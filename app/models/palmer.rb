@@ -1,0 +1,2 @@
+class Palmer < ApplicationRecord
+end
