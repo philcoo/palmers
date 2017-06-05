@@ -6,33 +6,37 @@
 	background: white;
 	color:black;
 }
+/*the baner background and introduction.*/
+.topbaner{
+	background-image: url(topbaner.jpg);
+	  background-size: cover;
+	height: 600px;	
+	font-family: 'Playfair Display', serif;
+}
+.topbaner h1{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	color: gray;	
+}
+.topbaner p{
+	display: flex;
+	flex-direction: row;
+	float: right;
+	padding-right: 50px;
+	padding-top: 70px;
+	color: black;	
+}
+.col-s6 span{
+	padding-right: 35px;
+	
+
+}
 h3{
 
 	color: red;	
 }
-#links{
-	border: solid 5px;
-	color: red;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-#link{
-	border: solid 5px;
-	color: gray;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-#par{
-	font-family: impact;
-	color:black;
-	font-size: 18px;
-}
-#loc{
-	border: solid 10px;
 
-}
 .nav-title{
 	margin-top: 1em;
 	color: green;
@@ -45,19 +49,41 @@ h4{
 	font-family: 'Playfair Display', serif;
 	color: #65CBE1;	
 }
-h3{
-	font-family: 'Playfair Display', serif;
-}
-p{
-	font-size: 2em;
-}
 
-@media screen and (max-width: 600px) {
-  .nav-title{color: black;}
-  .nav-content {
-    float: right;
-    display: block;
-  }
+
+/*media screen only*/
+
+@media screen and (max-width: 1200px) {
+  .topbaner h1{
+  	padding-left: 35%;
+  	padding-top: 89px;
+  padding-right: 290px;
+  	color: orange;	
+}
+.topbaner h4{
+	margin-top: 50px;
+ 
+  text-align: center;
+  	color: red	;
+
+}
+#aboutp p{
+	width: 100%;
+	height: 15px;
+position:relative;
+	top: 79px;
+	left: 205px;
+	font-size: 18px;
+	text-align: center;
+	color: green;
+}
+#picabout{
+	position:relative;
+	top: 25px;
+	left: -135px;
+	opacity: .3;
+
+}
 }
 
 @media screen and (max-width: 600px) {
